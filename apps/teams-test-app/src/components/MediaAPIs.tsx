@@ -222,7 +222,8 @@ const ViewImagesWithUrls = (): React.ReactElement =>
         return '';
       },
     },
-    defaultInput: '["one", "two", "three"]',
+    defaultInput: `["https://dansiegelgithubsponsors.blob.core.windows.net/images/twitter.png", 
+      "https://dansiegelgithubsponsors.blob.core.windows.net/images/youtube.png"]`,
   });
 
 const HasMediaPermission = (): React.ReactElement =>
